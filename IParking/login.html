@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>专车登录</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/console.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/login.css">
+    <script data-main="js/main" src="js/libs/require.js"></script>
+</head>
+<body class="login-bg">
+
+<div class="login-content">
+
+    <div class="login-background-container">
+        <div class="login-content-background">
+        </div>
+    </div>
+
+    <div class="login-content-2">
+
+        <!--中间内容-->
+        <div class="y-row clearfix">
+            <div class="login-title"><span>迪蒙专车后台登录</span></div>
+
+            <!--login-->
+            <div class="login-module">
+                <div class="alibaba-login-iframe">
+
+
+
+
+                    <form action="index.html" method="post">
+                    <div id="login-content" class="form clearfix">
+                        <!--用户名-->
+                        <dl>
+                            <dt class="fm-label">
+                                <span class="icon-user"></span>
+                            </dt>
+                            <dd class="fm-field">
+                                <div class="fm-field-wrap">
+                                    <input  class="fm-text" name="loginId"  placeholder="邮箱/会员名/8位ID" value="">
+                                </div>
+                                <div  class="nc_voice">邮箱/会员名、8位ID</div>
+                            </dd>
+                        </dl>
+
+                        <!--密码-->
+                        <dl>
+                            <dt class="fm-label">
+                                <span class="icon-password"></span>
+                            </dt>
+                            <dd  class="fm-field">
+                                <div class="fm-field-wrap">
+                                    <input  class="fm-text" type="password" name="password"  placeholder="登录密码" >
+                                </div>
+                                <div  class="nc_voice">请输入密码</div>
+                            </dd>
+                        </dl>
+
+                        <!--验证码-->
+                        <dl class="fm-login-checkcode-nc">
+                            <dt class="fm-label">
+                                <span class="icon-code"></span>
+                            </dt>
+                            <dd  class="about-checkcode fm-field clearfix">
+                                <div class="fm-field-wrap">
+                                <input  class="fm-text" type="text" name="password"  placeholder="验证码" >
+                                </div>
+                                <div class="nc_wrapper clearfix">
+                                    <div class="tb-login-left"><img src="images/code.jpg"/></div>
+                                    <div class="tb-login-right"><a href="javascript:void(0)">看不清，换一张</a></div>
+                                </div>
+                                <div class="tb-login">
+                                    <div  class="nc_voice text-danger"><span class="glyphicon glyphicon-remove-sign margin-right-1"></span>登录名或登录密码不正确</div>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+
+                    <!--登录按钮-->
+                    <div class="login-submit">
+                        <input  value="登录" class="fm-button fm-submit" type="submit" tabindex="4" name="submit-btn">
+                    </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+        <!--中间内容结束-->
+    </div>
+
+
+</div>
+<div class="login-foot">
+    <div class="login-foot-container">
+        <p class="foot-nav"><span><a href="#"> 关于我们 </a></span><span><a href="#" > 法律声明 </a></span><span><a href="#"> 友情链接 </a></span></p>
+
+        <p class="copyright">服务热线：400-678-5518 services@dimeng.net Copyright© 2016 dimeng.net 深圳市迪蒙网络科技有限公司 粤ICP备10075875号 标签云</p>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/libs/jquery-1.9.1.min.js"></script>
+</body>
+</html>

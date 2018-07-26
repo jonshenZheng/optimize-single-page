@@ -1,0 +1,75 @@
+<div class="console-container">
+    <div class="secure">
+        <div class="console-title console-title-border drds-detail-title clearfix" style="border-bottom: 0"><h5>地磁列表</h5><a class="btn btn-primary pull-right" href="javascript:history.go(-1)">返回</a></div>
+        <div class="console-table-wapper">
+
+            <div class="scroll-bar-table">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th width="10%">地磁编号</th>
+                        <th width="10%">地磁名称</th>
+                        <th width="10%">地磁MAC地址</th>
+                        <th width="10%">采集器编号</th>
+                        <th width="10%">所属厂商</th>
+                        <th width="10%">设备状态</th>
+                        <th width="10%">绑定泊位编号</th>
+                        <th width="10%">绑定状态</th>
+                        <th width="10%">状态刷新时间</th>
+                        <th width="10%">系统接收时间</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>123123</td>
+                            <td>地磁_123123</td>
+                            <td>2340</td>
+                            <td>-</td>
+                            <td>万泊科技</td>
+                            <td>占用</td>
+                            <td>121008</td>
+                            <td>已绑定</td>
+                            <td>2016-12-24 <br>15:17:46</td>
+                            <td>2016-12-24 <br>15:18:07</td>
+                            <td class="handle">
+                                <a href="#tpls/berth/geomagneticDetail.html">详情</a>
+                                <a>刷新</a>
+                                <a href="#tpls/berth/GeomagneticData.html">采集数据表</a>
+                                <a>删除</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-pagin-container">
+                <div class="pull-right page-box">
+                    <div class="pagination-info">共有1条，每页显示：20条</div>
+                    <ul class="pagination">
+                        <li class="disabled" page-index="1"><a>«</a></li>
+                        <li class="disabled" page-index="0"><a>‹</a></li>
+                        <li class="active" page-index="1"><a>1</a></li>
+                        <li page-index="2"><a>2</a></li>
+                        <li page-index="3"><a>3</a></li>
+                        <li page-index="2"><a>›</a></li>
+                        <li page-index="1"><a>»</a></li>
+                    </ul>
+                    <div class="pagination-goto">
+                        <input type="text" class="ipt form-control" id="gotoPageNo">
+                        <button type="button" class="btn btn-default" id="goBtn">GO
+                        </button>
+                        <input type="hidden" id="totalCount" name="totalCount" value="1">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="js/dialogExample/test.js"></script>
+
+<input type="hidden" value="#tpls/berth/gatewayManage.html" id="nav-index">
+

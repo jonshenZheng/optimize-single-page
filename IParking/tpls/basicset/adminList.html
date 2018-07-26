@@ -1,0 +1,129 @@
+<div class="console-container">
+    <div class="secure">
+        <div class="console-title console-title-border drds-detail-title clearfix" style="border-bottom: 0"><h5>管理员账号管理</h5></div>
+        <form class="form-inline">
+                <div class="public-selectArea public-tabBox">
+                    <div class="clearfix">
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>用户名：</dt>
+                                <dd>
+                                    <input type="text">
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>姓名：</dt>
+                                <dd>
+                                    <input type="text">
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>联系电话：</dt>
+                                <dd>
+                                    <input type="text">
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>用户组：</dt>
+                                <dd>
+                                    <select name="" id="" class="select">
+                                        <option value="">全部</option>   
+                                    </select>
+                                </dd>
+                            </dl>
+                        </div>  
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>状态：</dt>
+                                <dd>
+                                    <select name="" id="" class="select">
+                                        <option value="">全部</option>   
+                                    </select>
+                                </dd>
+                            </dl>
+                        </div>  
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>创建时间：</dt>
+                                <dd>                               
+                                    <div class="input-group">
+                                        <input class="time-inp Wdate" type="text" onclick="WdatePicker()">
+                                    </div>
+                                    <span class="from-to">至</span>
+                                    <div class="input-group">
+                                        <input class="time-inp Wdate" type="text" onclick="WdatePicker()">
+                                    </div>  
+                                </dd>
+                            </dl>
+                        </div> 
+                        <div class="wp_box col-lg-4 col-xs-6 blankbox">
+                            <dl>
+                                <dt></dt>
+                                <dd>                                
+                                </dd>
+                            </dl>
+                        </div>  
+                        <div class="wp_box col-lg-4 col-xs-6 blankbox">
+                        <dl>
+                             <dt></dt>
+                             <dd>                               
+                             </dd>
+                         </dl>
+                     </div>
+                    </div>  
+                    <div class="btnArea">
+                        <a class="btn btn-sereachBg"><i class="glyphicon glyphicon-search public-ico"></i><span class="public-label">查询</span></a> 
+                        <a class="btn btn-grayBg"><i class="glyphicon glyphicon-refresh public-ico"></i><span class="public-label">重置</span><input type="reset" value="重置"></a>
+                    </div>
+                </div>
+                <div class="public-btnArea">
+                    <a class="btn btn-grayBg"><i class="glyphicon glyphicon-plus public-ico"></i><span class="public-label">添加账号</span></a>
+                </div>  
+            </form> 
+
+        <!--表格 end-->
+        <div class="scroll-bar-table">
+            <table class="table table-hover">
+                <thead>
+                    <th width="4%">序号</th>
+                    <th width="12%">用户名</th>
+                    <th width="12%">姓名</th>
+                    <th width="12%">用户组</th>
+                    <th width="12%">性别</th>
+                    <th width="12%">联系电话</th>
+                    <th width="12%">创建人</th>
+                    <th width="12%">创建时间</th>
+                    <th width="12%">状态</th>
+                    <th>操作</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>启用</td>
+                        <td class="handle">
+                            <a href="#tpls/basicset/distributionAuthority.html">编辑</a>
+                            <a>删除</a>
+                            <a href="#tpls/basicset/distributionAccount.html">分配角色</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>        
+
+    </div>
+
+</div>
+

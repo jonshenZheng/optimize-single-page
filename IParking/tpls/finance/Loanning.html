@@ -1,0 +1,138 @@
+<div class="console-container">
+    <div class="secure">
+        <div class="console-title console-title-border drds-detail-title clearfix" style="border-bottom: 0"><h5>待放款</h5></div>
+        <div class="console-table-wapper">
+            <form class="form-inline">
+            	<div class="public-selectArea public-tabBox">
+                    <div class="clearfix">
+	                    <div class="wp_box col-lg-4 col-xs-6">
+	                        <dl>
+	                            <dt>用户账号：</dt>
+	                            <dd>
+	                                <input type="text">
+	                            </dd>
+	                        </dl>
+	                    </div>
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>姓名：</dt>
+                                <dd>
+                                    <input type="text">
+                                </dd>
+                            </dl>
+                        </div> 
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>订单号：</dt>
+                                <dd>
+                                    <input type="text">
+                                </dd>
+                            </dl>
+                        </div>     
+	                    <div class="wp_box col-lg-4 col-xs-6">
+	                        <dl>
+	                            <dt>审核时间：</dt>
+	                            <dd>                               
+	                                <div class="input-group">
+	                                    <input class="time-inp Wdate" type="text" onclick="WdatePicker()">
+	                                </div>
+                                    <span class="from-to">至</span>
+	                                <div class="input-group">
+	                                    <input class="time-inp Wdate" type="text" onclick="WdatePicker()">
+	                                </div>  
+	                            </dd>
+	                        </dl>
+	                    </div>
+	                    <div class="wp_box col-lg-4 col-xs-6 blankbox">
+	                        <dl>
+	                            <dt></dt>
+	                            <dd>                                
+	                            </dd>
+	                        </dl>
+	                    </div>  
+	                    <div class="wp_box col-lg-4 col-xs-6 blankbox">
+	                    <dl>
+	                         <dt></dt>
+	                         <dd>                               
+	                         </dd>
+	                     </dl>
+	                 </div>
+                    </div>  
+                    <div class="btnArea">
+                    	<a class="btn btn-sereachBg"><i class="glyphicon glyphicon-search public-ico"></i><span class="public-label">查询</span></a> 
+                        <a class="btn btn-grayBg"><i class="glyphicon glyphicon-refresh public-ico"></i><span class="public-label">重置</span><input type="reset" value="重置"></a>
+                    </div>
+                </div>
+                <div class="public-btnArea">
+                    <a class="btn btn-grayBg"><i class="glyphicon glyphicon-import public-ico"></i><span class="public-label">导出</span></a>
+                </div>  
+            </form> 
+
+            <div class="scroll-bar-table">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th width="12%">订单号</th>
+                        <th width="9%">用户账号</th>
+                        <th width="9%">姓名</th>
+                        <th width="9%">银行</th>
+                        <th width="12%">银行卡号</th>
+                        <th width="10%">提现金额(元)</th>
+                        <th width="9%">手续费(元)</th>
+                        <th width="9%">手续费支付</th>
+                        <th width="9%">审核人</th>
+                        <th width="12%">审核时间</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>12343424234324324</td>
+                            <td>12839999999</td>
+                            <td>黄蓉</td>
+                            <td>中国银行</td>
+                            <td>62220232020411555</td>
+                            <td>500.00</td>
+                            <td>5.00</td>
+                            <td>平台</td>
+                            <td>admin</td>
+                            <td>2016-08-12 12:01:32</td>
+                            <td class="handle">
+                                <a>放款</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="clearfix">
+                <div class="col-xs-4 col-lg-2 padding-t-5 padding-b-5">提现金额总计：<span class="colorF60 padding-l-10">100,000</span>元</div>
+                <div class="col-xs-4 col-lg-2 padding-t-5 padding-b-5">手续费总计：<span class="colorF60 padding-l-10">90,000</span>元</div>
+            </div>
+            <div class="table-pagin-container">
+                <div class="pull-right page-box">
+                    <div class="pagination-info">共有1条，每页显示：20条</div>
+                    <ul class="pagination">
+                        <li class="disabled" page-index="1"><a>«</a></li>
+                        <li class="disabled" page-index="0"><a>‹</a></li>
+                        <li class="active" page-index="1"><a>1</a></li>
+                        <li page-index="2"><a>2</a></li>
+                        <li page-index="3"><a>3</a></li>
+                        <li page-index="2"><a>›</a></li>
+                        <li page-index="1"><a>»</a></li>
+                    </ul>
+                    <div class="pagination-goto">
+                        <input type="text" class="ipt form-control" id="gotoPageNo">
+                        <button type="button" class="btn btn-default" id="goBtn">GO
+                        </button>
+                        <input type="hidden" id="totalCount" name="totalCount" value="1">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,46 @@
+<div class="console-container">
+    <div class="secure">
+        <div class="console-title console-title-border drds-detail-title clearfix"><h5>巡检员端启动页设置</h5></div>
+
+        <form action="" id="" name="" class="form-horizontal padding-b-30" enctype="multipart/form-data">
+
+            <div class="text-center console-title-border padding-b-30 clearfix">
+                <div class="col-lg-6 margin-t-40">
+                    <h4 class="padding-b-15"><span class="text-danger">*</span>IOS启动页图片：</h4>
+                    <div id="iosStartPic">
+                          <img src="images/nopic.png" width="240" height="320" id="iosImgPhoto">
+                    </div>
+                    <div class="padding-t-10">
+                        <a for="startUploadBtn" class="fileUpload btn btn-default"><span>选择上传文件</span>
+                            <input name="andFile" id="andFile" type="file" onchange="PreviewImage(this,'iosImgPhoto','iosStartPic');" class="upload">
+                        </a>
+                    </div>
+                    <div class="alert">（建议尺寸：750*1334，支持<span name="picDiff">jpg、png、jpeg</span>格式）</div>
+                </div>
+                <div class="col-lg-6 margin-t-40">
+                    <h4 class="padding-b-15"><span class="text-danger">*</span>Android启动页图片：</h4>
+                    <div id="androidStartPic">
+                          <img src="images/nopic.png" width="240" height="320" id="androidImgPhoto">
+                    </div>
+                    <div class="padding-t-10">
+                        <a for="startUploadBtn" class="fileUpload btn btn-default"><span>选择上传文件</span>
+                            <input name="andFile" id="andFile" type="file" onchange="PreviewImage(this,'androidImgPhoto','androidStartPic');" class="upload">
+                        </a>
+                    </div>
+                    <div class="alert">（建议尺寸：720*1280，支持<span name="picDiff">jpg、jpeg</span>格式）</div>
+                </div>
+            </div>
+
+            <div class="textAlign-c margin-t-40">
+                <span class="padding-r-15 verticalAlign-m">启动页链接地址：</span><input class="form-control width-30 display-ib verticalAlign-m" type="text" placeholder="启动页链接地址">
+            </div>
+            <div class="textAlign-c padding-t-30">
+                <a class="btn btn-primary">保存</a>
+            </div>
+        </form>
+                               
+    </div>
+
+</div>
+
+

@@ -1,0 +1,186 @@
+<div class="console-container">
+    <div class="secure">
+        <div class="console-title console-title-border drds-detail-title clearfix" style="border-bottom: 0"><h5>网关设备管理</h5></div>
+        <div class="console-table-wapper">
+            <form class="form-inline">
+            	<div class="public-selectArea public-tabBox">
+                    <div class="clearfix">
+	                    <div class="wp_box col-lg-4 col-xs-6">
+	                        <dl>
+	                            <dt>网关编号：</dt>
+	                            <dd>
+	                                <input type="text">
+	                            </dd>
+	                        </dl>
+	                    </div>    
+	                    <div class="wp_box col-lg-4 col-xs-6">
+	                        <dl>
+	                            <dt>网关名称：</dt>
+	                            <dd>
+	                                <input type="text">
+	                            </dd>
+	                        </dl>
+	                    </div>    
+	                    <div class="wp_box col-lg-4 col-xs-6">
+	                        <dl>
+	                            <dt>网关MAC地址：</dt>
+	                            <dd>
+	                                <input type="text">
+	                            </dd>
+	                        </dl>
+	                    </div>
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>网关IP地址：</dt>
+                                <dd>
+                                    <input type="text">
+                                </dd>
+                            </dl>
+                        </div>            
+	                    <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>所在区域：</dt>
+                                <dd>
+                                    <select name="" id="" class="select-xs">
+                                        <option value="">全部</option>
+                                    </select>
+                                    <select name="" id="" class="select-xs">
+                                        <option value="">全部</option>
+                                    </select>
+                                    <select name="" id="" class="select-xs">
+                                        <option value="">全部</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                        </div>   
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>所属厂商：</dt>
+                                <dd>
+                                    <select name="" id="" class="select">
+                                        <option value="">全部</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                        </div> 
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>注册状态：</dt>
+                                <dd>
+                                    <select name="" id="" class="select">
+                                        <option value="">全部</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="wp_box col-lg-4 col-xs-6">
+                            <dl>
+                                <dt>通讯状态：</dt>
+                                <dd>
+                                    <select name="" id="" class="select">
+                                        <option value="">全部</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                        </div>
+	                    <div class="wp_box col-lg-4 col-xs-6 blankbox">
+	                        <dl>
+	                            <dt></dt>
+	                            <dd>                                
+	                            </dd>
+	                        </dl>
+	                    </div>  
+	                    <div class="wp_box col-lg-4 col-xs-6 blankbox">
+	                    <dl>
+	                         <dt></dt>
+	                         <dd>                               
+	                         </dd>
+	                     </dl>
+	                 </div>
+                    </div>  
+                    <div class="btnArea">
+                    	<a class="btn btn-sereachBg"><i class="glyphicon glyphicon-search public-ico"></i><span class="public-label">查询</span></a> 
+                        <a class="btn btn-grayBg"><i class="glyphicon glyphicon-refresh public-ico"></i><span class="public-label">重置</span><input type="reset" value="重置"></a>
+                    </div>
+                </div>
+                <div class="public-btnArea">
+                    <a href="#tpls/berth/addGateway.html" class="btn btn-grayBg"><i class="glyphicon glyphicon-plus public-ico"></i><span class="public-label">添加网关</span></a>
+                    <a onclick="batch_add_gateway('批量添加网关')" class="btn btn-grayBg"><i class="glyphicon glyphicon-plus public-ico"></i><span class="public-label">批量添加网关</span></a>
+                    <a class="btn btn-grayBg"><i class="glyphicon glyphicon-refresh public-ico"></i><span class="public-label">批量刷新网关信息</span></a>
+                </div>  
+            </form> 
+
+            <div class="scroll-bar-table">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <th>序号</th>
+                        <th width="8%">网关编号</th>
+                        <th width="8%">网关名称</th>
+                        <th width="8%">网关MAC地址</th>
+                        <th width="8%">网关IP地址</th>
+                        <th width="9%">所属厂商</th>
+                        <th width="9%">所在停车路段</th>
+                        <th width="9%">所在片区</th>
+                        <th width="9%">所在区域</th>
+                        <th width="8%">注册状态</th>
+                        <th width="8%">采集器数量</th>
+                        <th width="8%">地磁数量</th>
+                        <th width="8%">通讯状态</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>1</td>
+                            <td>9527</td>
+                            <td>网关_9527</td>
+                            <td>0x8dfczx</td>
+                            <td>192.168.0.1</td>
+                            <td>-</td>
+                            <td>红岭南路</td>
+                            <td>田贝</td>
+                            <td>罗湖区</td>
+                            <td>已注册</td>
+                            <td>0</td>
+                            <td>50</td>
+                            <td>无信号</td>
+                            <td class="handle">
+                                <a href="#tpls/berth/gatewayDetail.html">详情</a>
+                                <a href="#tpls/berth/collectorList.html">采集器列表</a>
+                                <a href="#tpls/berth/GeomagneticLsit.html">地磁列表</a>
+                                <a>删除</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-pagin-container">
+                <div class="pull-right page-box">
+                    <div class="pagination-info">共有1条，每页显示：20条</div>
+                    <ul class="pagination">
+                        <li class="disabled" page-index="1"><a>«</a></li>
+                        <li class="disabled" page-index="0"><a>‹</a></li>
+                        <li class="active" page-index="1"><a>1</a></li>
+                        <li page-index="2"><a>2</a></li>
+                        <li page-index="3"><a>3</a></li>
+                        <li page-index="2"><a>›</a></li>
+                        <li page-index="1"><a>»</a></li>
+                    </ul>
+                    <div class="pagination-goto">
+                        <input type="text" class="ipt form-control" id="gotoPageNo">
+                        <button type="button" class="btn btn-default" id="goBtn">GO
+                        </button>
+                        <input type="hidden" id="totalCount" name="totalCount" value="1">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="js/dialogExample/test.js"></script>
+

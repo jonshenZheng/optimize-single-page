@@ -1,0 +1,148 @@
+<div class="console-container">
+    <div class="secure">
+        <div class="console-title console-title-border drds-detail-title clearfix"><h5>分配权限</h5></div>
+        
+        <form action="" class="padding-t-30">
+            <div class="score-table distributiion-tab">
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <td width="130"><input type="checkbox" name="selectAllIndex">所有权限</td>
+                            <td>
+                                <div class="table-formBox">
+                                    <dl class="clearfix">
+                                        <dt>
+                                            <label class="form-lable"><span class="text-danger">*</span><span>用户组名称：</span></label>
+                                        </dt>
+                                        <dd>
+                                            <input class="form-control" type="text" value="">
+                                        </dd>
+                                    </dl>
+                                    <dl class="clearfix">
+                                        <dt>
+                                            <label class="form-lable"><span class="text-danger">*</span><span>用户组描述：</span></label>
+                                        </dt>
+                                        <dd>
+                                            <textarea class="form-textarea" name="content"  placeholder="" value=""></textarea>
+                                        </dd>
+                                    </dl>
+                                    <dl class="clearfix">
+                                        <dt>
+                                            <label class="form-lable"><span>权限管理：</span></label>
+                                        </dt>
+                                        <dd>
+                                            <span class="form-lable">勾选后将获得相应的操作权限</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="additem">
+                            <td>
+                                <input type="checkbox" name="" value="" class="option" >一级功能<i class="wp-upbtn" style="right: 10px;"></i>
+                            </td>
+                            <td>
+                                <div class="checkbox-block">
+                                    <div class="til"><label><input type="checkbox"><span>二级功能</span></label></div>
+                                    <div class="showList">
+                                        <div class="block clearfix">
+                                            <div class="leftBox">
+                                                <label>
+                                                    <input type="checkbox" name="" value="" >
+                                                    <span>三级功能：</span>
+                                                </label>
+                                            </div>
+                                            <div class="rightBox clearfix">
+                                                <label class="col-xs-6 col-lg-4">
+                                                    <input type="checkbox" value="" name="">
+                                                    <span>操作</span>
+                                                </label>
+                                                <label class="col-xs-6 col-lg-4">
+                                                    <input type="checkbox" value="" name="">
+                                                    <span>操作</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="block clearfix">
+                                            <div class="leftBox">
+                                                <label>
+                                                    <input type="checkbox" name="" value="" >
+                                                    <span>三级功能：</span>
+                                                </label>
+                                            </div>
+                                            <div class="rightBox clearfix">
+                                                <label class="col-xs-6 col-lg-4">
+                                                    <input type="checkbox" value="" name="">
+                                                    <span>操作</span>
+                                                </label>
+                                                <label class="col-xs-6 col-lg-4">
+                                                    <input type="checkbox" value="" name="">
+                                                    <span>操作</span>
+                                                </label>
+                                                <label class="col-xs-6 col-lg-4">
+                                                    <input type="checkbox" value="" name="">
+                                                    <span>操作</span>
+                                                </label>
+                                                <label class="col-xs-6 col-lg-4">
+                                                    <input type="checkbox" value="" name="">
+                                                    <span>操作</span>
+                                                </label>
+                                                <label class="col-xs-6 col-lg-4">
+                                                    <input type="checkbox" value="" name="">
+                                                    <span>操作</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="checkbox-block">
+                                    <div class="til"><label><input type="checkbox"><span>二级功能</span></label></div>
+                                    <div class="showList">
+                                        <div class="block clearfix">
+                                            <div class="leftBox">
+                                                <label>
+                                                    <input type="checkbox" name="" value="" >
+                                                    <span>三级功能</span>
+                                                </label>
+                                            </div>
+                                            <div class="rightBox clearfix">
+                                                <label class="col-xs-6 col-lg-4">
+                                                    <input type="checkbox" value="" name="">
+                                                    <span>操作</span>
+                                                </label>
+                                                <label class="col-xs-6 col-lg-4">
+                                                    <input type="checkbox" value="" name="">
+                                                    <span>操作</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    //收缩列表
+    var $contol = $('.distributiion-tab .wp-upbtn');
+
+    $contol.click(function(){
+        var self = $(this),
+            list = self.parents('td').next('td').find('.showList');
+        if(self.hasClass('active')){
+            self.removeClass('active');
+            list.slideDown();
+
+        }
+        else{
+            self.addClass('active');
+            list.slideUp();
+        }
+    });
+</script>
+
+<input type="hidden" value="#tpls/basicset/addUserGroup.html" id="nav-index">

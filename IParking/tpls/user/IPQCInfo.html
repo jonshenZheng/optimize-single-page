@@ -1,0 +1,451 @@
+<div class="console-container">
+    <div class="secure">
+        <div class="console-title console-title-border drds-detail-title clearfix" style="border-bottom: 0"><h5>巡检员信息</h5></div>
+        <div class="public-infoTab public-tabBox margin-b-20">
+            <div class="title"><span class="font-s-16" style="width:180px">账号信息</span></div>
+            <div class="clearfix colNoAtuo">
+                <div class="wp_box col-xs-6">
+                    <dl>
+                        <dt>工号：</dt>
+                        <dd>65536</dd>
+                    </dl>
+                </div>    
+                <div class="wp_box col-xs-6">
+                    <dl>
+                        <dt>手机号：</dt>
+                        <dd>15915638958</dd>
+                    </dl>
+                </div>    
+                <div class="wp_box col-xs-6">
+                    <dl>
+                        <dt>姓名：</dt>
+                        <dd>黄融</dd>
+                    </dl>
+                </div>    
+                <div class="wp_box col-xs-6">
+                    <dl>
+                        <dt>录入时间：</dt>
+                        <dd>2016-08-16 09:00</dd>
+                    </dl>
+                </div>    
+                <div class="wp_box col-xs-6">
+                    <dl>
+                        <dt>泊位内取证数量：</dt>
+                        <dd>56</dd>
+                    </dl>
+                </div>    
+                <div class="wp_box col-xs-6">
+                    <dl>
+                        <dt>泊位外取证数量：</dt>
+                        <dd>45</dd>
+                    </dl>
+                </div>    
+                <div class="wp_box col-xs-6">
+                    <dl>
+                        <dt>异常上报数量：</dt>
+                        <dd>45</dd>
+                    </dl>
+                </div>    
+                <div class="wp_box col-xs-6">
+                    <dl>
+                        <dt>账号状态：</dt>
+                        <dd>启用/停用</dd>
+                    </dl>
+                </div>      
+            </div>  
+        </div>
+        <!--切换菜单-->
+            <div class="padding-t-20">
+                <div class="flash-wrap">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#jbxx">基本信息</a></li>
+                        <li><a href="#bwnqz">泊位内取证</a></li>
+                        <li><a href="#bwwqz">泊位外取证</a></li>
+                        <li><a href="#ycsb">异常上报</a></li>
+                    </ul>
+                </div>
+                <div class="tab-content margin-top clearfix margin-b-30">
+                    <div id="jbxx" class="tab-pane fade active in">
+                        <div class="public-infoTab public-tabBox margin-b-20">
+                            <div class="clearfix colNoAtuo">
+                                <div class="wp_box col-xs-6">
+                                    <dl>
+                                        <dt>手机号：</dt>
+                                        <dd>15915638958</dd>
+                                    </dl>
+                                </div>    
+                                <div class="wp_box col-xs-6">
+                                    <dl>
+                                        <dt>姓名：</dt>
+                                        <dd>黄荣</dd>
+                                    </dl>
+                                </div>    
+                                <div class="wp_box col-xs-6">
+                                    <dl>
+                                        <dt>性别：</dt>
+                                        <dd>男</dd>
+                                    </dl>
+                                </div>    
+                                <div class="wp_box col-xs-6">
+                                    <dl>
+                                        <dt>身份证：</dt>
+                                        <dd>430381198906298116</dd>
+                                    </dl>
+                                </div>    
+                                <div class="wp_box col-xs-6">
+                                    <dl>
+                                        <dt>联系地址：</dt>
+                                        <dd>深圳市罗湖区深南中路</dd>
+                                    </dl>
+                                </div>    
+                                <div class="wp_box col-xs-6">
+                                    <dl>
+                                        <dt>管辖区域：</dt>
+                                        <dd>罗湖区</dd>
+                                    </dl>
+                                </div>    
+                                <div class="wp_box col-xs-6">
+                                    <dl>
+                                        <dt>管辖片区：</dt>
+                                        <dd>笋岗片区</dd>
+                                    </dl>
+                                </div>    
+                                <div class="wp_box col-xs-6">
+                                    <dl>
+                                        <dt></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </div> 
+                                <div class="wp_box col-xs-12">
+                                    <dl>
+                                        <dt>管辖路段：</dt>
+                                        <dd>深南中路、宝安南路</dd>
+                                    </dl>
+                                </div>  
+                            </div>  
+                        </div>
+                    </div>
+                    <div id="bwnqz" class="tab-pane fade">
+                        <form class="form-inline">
+                            <div class="public-selectArea public-tabBox">
+                                <div class="clearfix">
+                                    <div class="wp_box col-lg-4 col-xs-6">
+                                        <dl>
+                                            <dt>取证编号：</dt>
+                                            <dd>
+                                                <input type="text">
+                                            </dd>
+                                        </dl>
+                                    </div>     
+                                    <div class="wp_box col-lg-4 col-xs-6">
+                                        <dl>
+                                            <dt>车牌号：</dt>
+                                            <dd>
+                                                <input type="text">
+                                            </dd>
+                                        </dl>
+                                    </div>       
+                                    <div class="wp_box col-lg-4 col-xs-6">
+                                        <dl>
+                                            <dt>取证时间：</dt>
+                                            <dd>                               
+                                                <div class="input-group">
+                                                    <input class="time-inp Wdate" type="text" onclick="WdatePicker()">
+                                                </div>
+                                                <span class="from-to">至</span>
+                                                <div class="input-group">
+                                                    <input class="time-inp Wdate" type="text" onclick="WdatePicker()">
+                                                </div>  
+                                            </dd>
+                                        </dl>
+                                    </div>    
+                                    <div class="wp_box col-lg-4 col-xs-6">
+                                        <dl>
+                                            <dt>处理状态：</dt>
+                                            <dd>
+                                                <select name="" id="" class="select">
+                                                    <option value="" selected="selected">全部</option>
+                                                    <option value="">...</option>
+                                                </select>
+                                            </dd>
+                                        </dl>
+                                    </div> 
+                                    <div class="wp_box col-lg-4 col-xs-6 blankbox">
+                                        <dl><dt></dt> <dd></dd></dl>
+                                    </div>
+                                    <div class="wp_box col-lg-4 col-xs-6 blankbox">
+                                        <dl><dt></dt> <dd></dd></dl>
+                                    </div>
+                                </div>  
+                                <div class="btnArea">
+                                    <a class="btn btn-sereachBg"><i class="glyphicon glyphicon-search public-ico"></i><span class="public-label">查询</span></a> 
+                                    <a class="btn btn-grayBg"><i class="glyphicon glyphicon-refresh public-ico"></i><span class="public-label">重置</span><input type="reset" value="重置"></a>
+                                </div>
+                            </div>
+                        </form> 
+                        <div class="scroll-bar-table" style="margin-top: 62px">
+                            <table class="table table-hover">
+                                <thead>
+                                <tr>
+                                    <th width="10%">序号</th>
+                                    <th width="10%">取证编号</th>
+                                    <th width="10%">泊位编号</th>
+                                    <th width="10%">车牌号</th>
+                                    <th width="10%">停车路段</th>
+                                    <th width="10%">所在片区</th>
+                                    <th width="10%">所在区域</th>
+                                    <th width="10%">取证类型</th>
+                                    <th width="10%">取证时间</th>
+                                    <th width="10%">状态</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><a href="">10023489</a></td>
+                                        <td>121001</td>
+                                        <td>粤B12306</td>
+                                        <td>红岭南路</td>
+                                        <td>田贝</td>
+                                        <td>罗湖区</td>
+                                        <td>超时停车</td>
+                                        <td>2016-12-21 9：40：56</td>
+                                        <td>待审核</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-pagin-container">
+                            <div class="pull-right page-box">
+                                <div class="pagination-info">共有1条，每页显示：20条</div>
+                                <ul class="pagination">
+                                    <li class="disabled" page-index="1"><a>«</a></li>
+                                    <li class="disabled" page-index="0"><a>‹</a></li>
+                                    <li class="active" page-index="1"><a>1</a></li>
+                                    <li page-index="2"><a>2</a></li>
+                                    <li page-index="3"><a>3</a></li>
+                                    <li page-index="2"><a>›</a></li>
+                                    <li page-index="1"><a>»</a></li>
+                                </ul>
+                                <div class="pagination-goto">
+                                    <input type="text" class="ipt form-control" id="gotoPageNo">
+                                    <button type="button" class="btn btn-default" id="goBtn">GO
+                                    </button>
+                                    <input type="hidden" id="totalCount" name="totalCount" value="1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bwwqz" class="tab-pane fade">
+                        <form class="form-inline">
+                            <div class="public-selectArea public-tabBox">
+                                <div class="clearfix">
+                                    <div class="wp_box col-lg-4 col-xs-6">
+                                        <dl>
+                                            <dt>取证编号：</dt>
+                                            <dd>
+                                                <input type="text">
+                                            </dd>
+                                        </dl>
+                                    </div>     
+                                    <div class="wp_box col-lg-4 col-xs-6">
+                                        <dl>
+                                            <dt>车牌号：</dt>
+                                            <dd>
+                                                <input type="text">
+                                            </dd>
+                                        </dl>
+                                    </div>       
+                                    <div class="wp_box col-lg-4 col-xs-6">
+                                        <dl>
+                                            <dt>取证时间：</dt>
+                                            <dd>                               
+                                                <div class="input-group">
+                                                    <input class="time-inp Wdate" type="text" onclick="WdatePicker()">
+                                                </div>
+                                                <span class="from-to">至</span>
+                                                <div class="input-group">
+                                                    <input class="time-inp Wdate" type="text" onclick="WdatePicker()">
+                                                </div>  
+                                            </dd>
+                                        </dl>
+                                    </div>    
+                                    <div class="wp_box col-lg-4 col-xs-6">
+                                        <dl>
+                                            <dt>处理状态：</dt>
+                                            <dd>
+                                                <select name="" id="" class="select">
+                                                    <option value="" selected="selected">全部</option>
+                                                    <option value="">...</option>
+                                                </select>
+                                            </dd>
+                                        </dl>
+                                    </div> 
+                                    <div class="wp_box col-lg-4 col-xs-6 blankbox">
+                                        <dl><dt></dt> <dd></dd></dl>
+                                    </div>
+                                    <div class="wp_box col-lg-4 col-xs-6 blankbox">
+                                        <dl><dt></dt> <dd></dd></dl>
+                                    </div>
+                                </div>  
+                                <div class="btnArea">
+                                    <a class="btn btn-sereachBg"><i class="glyphicon glyphicon-search public-ico"></i><span class="public-label">查询</span></a> 
+                                    <a class="btn btn-grayBg"><i class="glyphicon glyphicon-refresh public-ico"></i><span class="public-label">重置</span><input type="reset" value="重置"></a>
+                                </div>
+                            </div>
+                        </form> 
+                        <div class="scroll-bar-table" style="margin-top: 62px">
+                            <table class="table table-hover">
+                                <thead>
+                                <tr>
+                                    <th width="11%">序号</th>
+                                    <th width="11%">取证编号</th>
+                                    <th width="11%">车牌号</th>
+                                    <th width="11%">停车路段</th>
+                                    <th width="11%">所在片区</th>
+                                    <th width="11%">所在区域</th>
+                                    <th width="11%">取证类型</th>
+                                    <th width="12%">取证时间</th>
+                                    <th width="11%">状态</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><a href="">10023489</a></td>
+                                        <td>粤B12306</td>
+                                        <td>红岭南路</td>
+                                        <td>田贝</td>
+                                        <td>罗湖区</td>
+                                        <td>超时停车</td>
+                                        <td>2016-12-21 9：40：56</td>
+                                        <td>待审核</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-pagin-container">
+                            <div class="pull-right page-box">
+                                <div class="pagination-info">共有1条，每页显示：20条</div>
+                                <ul class="pagination">
+                                    <li class="disabled" page-index="1"><a>«</a></li>
+                                    <li class="disabled" page-index="0"><a>‹</a></li>
+                                    <li class="active" page-index="1"><a>1</a></li>
+                                    <li page-index="2"><a>2</a></li>
+                                    <li page-index="3"><a>3</a></li>
+                                    <li page-index="2"><a>›</a></li>
+                                    <li page-index="1"><a>»</a></li>
+                                </ul>
+                                <div class="pagination-goto">
+                                    <input type="text" class="ipt form-control" id="gotoPageNo">
+                                    <button type="button" class="btn btn-default" id="goBtn">GO
+                                    </button>
+                                    <input type="hidden" id="totalCount" name="totalCount" value="1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ycsb" class="tab-pane fade">
+                        <form class="form-inline">
+                            <div class="public-selectArea public-tabBox">
+                                <div class="clearfix">
+                                    <div class="wp_box col-lg-4 col-xs-6">
+                                        <dl>
+                                            <dt>异常编号：</dt>
+                                            <dd>
+                                                <input type="text">
+                                            </dd>
+                                        </dl>
+                                    </div>     
+                                    <div class="wp_box col-lg-4 col-xs-6">
+                                        <dl>
+                                            <dt>状态：</dt>
+                                            <dd>
+                                                <select name="" id="" class="select">
+                                                    <option value="" selected="selected">全部</option>
+                                                    <option value="">...</option>
+                                                </select>
+                                            </dd>
+                                        </dl>
+                                    </div>       
+                                    <div class="wp_box col-lg-4 col-xs-6">
+                                        <dl>
+                                            <dt>上报时间：</dt>
+                                            <dd>                               
+                                                <div class="input-group">
+                                                    <input class="time-inp Wdate" type="text" onclick="WdatePicker()">
+                                                </div>
+                                                <span class="from-to">至</span>
+                                                <div class="input-group">
+                                                    <input class="time-inp Wdate" type="text" onclick="WdatePicker()">
+                                                </div>  
+                                            </dd>
+                                        </dl>
+                                    </div>     
+                                    <div class="wp_box col-lg-4 col-xs-6 blankbox">
+                                        <dl><dt></dt> <dd></dd></dl>
+                                    </div>
+                                    <div class="wp_box col-lg-4 col-xs-6 blankbox">
+                                        <dl><dt></dt> <dd></dd></dl>
+                                    </div>
+                                </div>  
+                                <div class="btnArea">
+                                    <a class="btn btn-sereachBg"><i class="glyphicon glyphicon-search public-ico"></i><span class="public-label">查询</span></a> 
+                                    <a class="btn btn-grayBg"><i class="glyphicon glyphicon-refresh public-ico"></i><span class="public-label">重置</span><input type="reset" value="重置"></a>
+                                </div>
+                            </div>
+                        </form> 
+                        <div class="scroll-bar-table" style="margin-top: 62px">
+                            <table class="table table-hover">
+                                <thead>
+                                <tr>
+                                    <th width="12%">序号</th>
+                                    <th width="12%">异常编号</th>
+                                    <th width="12%">异常类型</th>
+                                    <th width="14%">停车路段</th>
+                                    <th width="12%">所在片区</th>
+                                    <th width="12%">所在区域</th>
+                                    <th width="14%">上报时间</th>
+                                    <th width="12%">状态</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><a href="">10023489</a></td>
+                                        <td>设备故障</td>
+                                        <td>红岭南路</td>
+                                        <td>田贝</td>
+                                        <td>罗湖区</td>
+                                        <td>2016-12-21 9：40：56</td>
+                                        <td>待处理</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-pagin-container">
+                            <div class="pull-right page-box">
+                                <div class="pagination-info">共有1条，每页显示：20条</div>
+                                <ul class="pagination">
+                                    <li class="disabled" page-index="1"><a>«</a></li>
+                                    <li class="disabled" page-index="0"><a>‹</a></li>
+                                    <li class="active" page-index="1"><a>1</a></li>
+                                    <li page-index="2"><a>2</a></li>
+                                    <li page-index="3"><a>3</a></li>
+                                    <li page-index="2"><a>›</a></li>
+                                    <li page-index="1"><a>»</a></li>
+                                </ul>
+                                <div class="pagination-goto">
+                                    <input type="text" class="ipt form-control" id="gotoPageNo">
+                                    <button type="button" class="btn btn-default" id="goBtn">GO
+                                    </button>
+                                    <input type="hidden" id="totalCount" name="totalCount" value="1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>                
+</div>  
+ <input type="hidden" value="#tpls/user/IPQCmanage.html" id="nav-index">

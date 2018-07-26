@@ -1,0 +1,85 @@
+<div class="console-container">
+    <div class="secure">
+        <div class="console-title console-title-border drds-detail-title clearfix" style="border-bottom: 0"><h5>网关设备管理 &gt; 网关_9527 - 地磁列表 &gt; 地磁_9527 - 数据采集表</h5><a class="btn btn-primary pull-right" href="javascript:history.go(-1)">返回</a></div>
+        <div class="console-table-wapper">
+            <form class="form-inline form-time-Wrap" id="" style="margin-top: 0">
+                <div class="form-group">
+                    <label class="control-label">时间：</label>
+                    <div class="input-group date">
+                        <input class="text Wdate time-inp" type="text" name="" id="" value=""  onclick="WdatePicker();">
+                    </div>
+                    <span class="date-step-span">至</span>
+                    <div class="input-group date">
+                        <input class="text Wdate time-inp" type="text" name="" id="" value=""  onclick="WdatePicker();">
+                    </div>
+                </div>
+                <a onclick="" class="btn btn-primary"><span class="glyphicon glyphicon-search margin-right-1"></span>查询</a>
+            </form>
+
+            <div class="scroll-bar-table margin-t-30">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th width="7%">id</th>
+                        <th width="7%">地磁mac</th>
+                        <th width="7%">探头MAC</th>
+                        <th width="7%">电压</th>
+                        <th width="7%">状态</th>
+                        <th width="7%">温度</th>
+                        <th width="7%">RSSI</th>
+                        <th width="7%">x</th>
+                        <th width="7%">y</th>
+                        <th width="7%">z</th>
+                        <th width="7%">版本</th>
+                        <th width="8%">采集时间</th>
+                        <th width="8%">系统时间</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-pagin-container">
+                <div class="pull-right page-box">
+                    <div class="pagination-info">共有1条，每页显示：20条</div>
+                    <ul class="pagination">
+                        <li class="disabled" page-index="1"><a>«</a></li>
+                        <li class="disabled" page-index="0"><a>‹</a></li>
+                        <li class="active" page-index="1"><a>1</a></li>
+                        <li page-index="2"><a>2</a></li>
+                        <li page-index="3"><a>3</a></li>
+                        <li page-index="2"><a>›</a></li>
+                        <li page-index="1"><a>»</a></li>
+                    </ul>
+                    <div class="pagination-goto">
+                        <input type="text" class="ipt form-control" id="gotoPageNo">
+                        <button type="button" class="btn btn-default" id="goBtn">GO
+                        </button>
+                        <input type="hidden" id="totalCount" name="totalCount" value="1">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="js/dialogExample/test.js"></script>
+
+<input type="hidden" value="#tpls/berth/gatewayManage.html" id="nav-index">
+

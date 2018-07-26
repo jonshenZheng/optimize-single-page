@@ -1,0 +1,136 @@
+<div class="console-container">
+    <div class="secure">
+        <div class="console-title console-title-border drds-detail-title clearfix" style="border-bottom: 0"><h5>添加收费标准</h5></div>
+
+        <form class="table-formBox">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label class="form-lable"><span class="text-danger">*</span><span>名称：</span></label>
+                        </td>
+                        <td class="clearfix">
+                            <div class="col-xs-5 form-r-wp">
+                                <input id="title" class="form-control" type="text" name="" value="一类收费标准">
+                            </div>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td>
+                            <label class="form-lable"><span class="text-danger">*</span><span>费用封顶：</span></label>      
+                        </td>
+                        <td class="clearfix">
+                            <div class="col-xs-6 form-r-wp form-control-static">
+                                <label class="option-lab"><input type="radio" name="optionsRadios2" value="option1"><span>即时</span></label>
+                                <label class="option-lab"><input type="radio" name="optionsRadios2" value="option1"><span>定时</span></label>
+                                <input type="text" class="input-auto" style="margin-left: -15px">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="add-charge-standard margin-t-30">
+                <div class="tilBox">
+                    <span class="til bg-blue">工作日收费规则</span>
+                </div>
+                <div class="cont">
+                    <i class="left-bord"></i>
+                    <div class="rule">
+                        <div class="list clearfix">
+                            <div class="field">
+                                <span class="lab">停车时长</span>
+                                <select name="" id="">
+                                    <option value="">全部</option>
+                                </select>
+                                <span class="units">以内</span>
+                            </div>
+                            <div class="field">
+                                <input type="text" value="0">
+                                <span class="units">元/每单位时间</span>
+                            </div>
+                        </div>
+                        <div class="list clearfix">
+                            <div class="field">
+                                <span class="lab">停车时长</span>
+                                <select name="" id="">
+                                    <option value="">全部</option>
+                                </select>
+                                <span class="units">以后</span>
+                            </div>
+                            <div class="field">
+                                <input type="text" value="0">
+                                <span class="units">元/每单位时间</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <a class="btn btn-default addRule-btn"><i class="glyphicon glyphicon-plus"></i><span>添加规则</span></a>                
+                </div>
+            </div>
+            <div class="add-charge-standard margin-t-30">
+                <div class="tilBox">
+                    <span class="til">非工作日收费规则</span>
+                </div>
+                <div class="cont">
+                    <i class="left-bord"></i>
+                    <div class="rule">
+                        <div class="list clearfix">
+                            <div class="field">
+                                <span class="lab">停车时长</span>
+                                <select name="" id="">
+                                    <option value="">全部</option>
+                                </select>
+                                <span class="units">以内</span>
+                            </div>
+                            <div class="field">
+                                <input type="text" value="0">
+                                <span class="units">元/每单位时间</span>
+                            </div>
+                        </div>
+                        <div class="list clearfix">
+                            <div class="field">
+                                <span class="lab">停车时长</span>
+                                <select name="" id="">
+                                    <option value="">全部</option>
+                                </select>
+                                <span>至</span>
+                                <select name="" id="">
+                                    <option value="">全部</option>
+                                </select>
+                                <span class="units">以内</span>
+                            </div>
+                            <div class="field">
+                                <input type="text" value="0">
+                                <span class="units">元/每单位时间</span>
+                            </div>
+                            <a class="removeBtn"></a>
+                        </div>
+                        <div class="list clearfix">
+                            <div class="field">
+                                <span class="lab">停车时长</span>
+                                <select name="" id="">
+                                    <option value="">全部</option>
+                                </select>
+                                <span class="units">以后</span>
+                            </div>
+                            <div class="field">
+                                <input type="text" value="0">
+                                <span class="units">元/每单位时间</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <a class="btn btn-default addRule-btn"><i class="glyphicon glyphicon-plus"></i><span>添加规则</span></a>                
+                </div>
+            </div>
+
+            <div class="textAlign-c padding-t-30">
+                <a class="btn btn-primary">确认</a>
+                <a class="btn btn-primary">取消</a>
+            </div>
+        </form>
+
+    </div>
+
+</div>
+<input type="hidden" value="#tpls/basicset/businessSetup.html" id="nav-index">
